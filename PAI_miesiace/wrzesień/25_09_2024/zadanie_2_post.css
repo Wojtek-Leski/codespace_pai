@@ -1,0 +1,39 @@
+#formularz
+{
+    border: inset rgb(12, 86, 172) 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 130px;
+}
+
+#imie
+{
+    border: ridge rgb(59, 152, 240) 3px;
+    border-radius: 10px;
+}
+
+#nazwisko
+{
+    border: ridge rgb(59, 152, 240) 3px;
+    border-radius: 10px;
+}
+
+#adres_email
+{
+    border: ridge rgb(59, 152, 240) 3px;
+    border-radius: 10px;
+}
+
+#submit
+{
+    border: ridge rgb(59, 152, 240) 3px;
+    border-radius: 10px;
+    background-color: rgb(165, 211, 255);
+    font-weight: bold;
+    width: 160px;
+}
+
+.tekst::placeholder
+{
+    color: rgb(91, 135, 201);
+}
